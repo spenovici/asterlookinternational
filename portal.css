@@ -40,10 +40,12 @@ h2{
 }
 
 .intro-box{
+  grid-column: 1 / -1;
   background: #f5fff5;
   border-left: 5px solid lightgreen;
   padding: 20px;
-  margin-bottom: 30px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   line-height: 1.7;
 }
 
@@ -129,6 +131,11 @@ textarea:focus {
 .textarea-group {
   position: relative;
   grid-column: span 2; 
+}
+
+.full-width {
+  grid-column: 1 / -1;
+  text-align: justify;
 }
 
 .textarea-group textarea {
